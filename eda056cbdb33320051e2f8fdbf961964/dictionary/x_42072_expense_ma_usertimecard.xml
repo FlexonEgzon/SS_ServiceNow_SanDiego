@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="UserTimeCard" max_length="40" name="x_42072_expense_ma_usertimecard" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
